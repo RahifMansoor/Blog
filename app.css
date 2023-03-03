@@ -1,0 +1,95 @@
+/* Set the background color of the page */
+body {
+    background-color: white;
+  }
+  
+  /* Set the color of all text */
+  body {
+    color: blue;
+    font-family: "Merriweather";
+  }
+  
+  /* Style the header */
+  header {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Style the navigation links */
+  nav {
+    display: inline-block;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Style the main content area */
+  main {
+    margin: 20px;
+  }
+  
+  article {
+    border-bottom: 1px solid blue;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+  }
+  
+  article h2 {
+    color: blue;
+  }
+  
+  article p {
+    line-height: 1.5;
+  }
+  
+  /* Style the footer */
+  footer {
+    background-color: blue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  /* Style the title box */
+  #title {
+    font-size: 24px;
+    font-weight: bold;
+    padding: 8px;
+    border: 2px solid blue;
+    border-radius: 4px;
+    margin-bottom: 16px;
+  }
+  
+  /* Style the author box */
+  #author {
+    font-size: 16px;
+    padding: 8px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+  
+  /* Style the content box */
+  #content {
+    margin-top: 10px;
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid blue;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    height: 200px;
+  }
